@@ -1,17 +1,17 @@
 {
-    "name": "ryangjchandler/filament-profile",
+    "name": "abdelhamiderrahmouni/filament-profile",
     "description": "A simple profile page for Filament.",
     "keywords": [
-        "ryangjchandler",
+        "abdelhamiderrahmouni",
         "laravel",
         "filament-profile"
     ],
-    "homepage": "https://github.com/ryangjchandler/filament-profile",
+    "homepage": "https://github.com/abdelhamiderrahmouni/filament-profile",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ryan Chandler",
-            "email": "support@ryangjchandler.co.uk",
+            "name": "Abdelhamid Errahmouni",
+            "email": "abdelhamiderrahmouni@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RyanChandler\\FilamentProfile\\": "src",
-            "RyanChandler\\FilamentProfile\\Database\\Factories\\": "database/factories"
+            "AbdelhamidErrahmouni\\FilamentProfile\\": "src",
+            "AbdelhamidErrahmouni\\FilamentProfile\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RyanChandler\\FilamentProfile\\Tests\\": "tests"
+            "AbdelhamidErrahmouni\\FilamentProfile\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\FilamentProfile\\FilamentProfileServiceProvider"
+                "AbdelhamidErrahmouni\\FilamentProfile\\FilamentProfileServiceProvider"
             ],
             "aliases": {
-                "FilamentProfile": "RyanChandler\\FilamentProfile\\Facades\\FilamentProfile"
+                "FilamentProfile": "AbdelhamidErrahmouni\\FilamentProfile\\Facades\\FilamentProfile"
             }
         }
     },

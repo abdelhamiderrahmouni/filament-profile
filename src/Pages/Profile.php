@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanChandler\FilamentProfile\Pages;
+namespace AbdelhamidErrahmouni\FilamentProfile\Pages;
 
 use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\Section;

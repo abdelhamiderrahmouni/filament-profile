@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentProfile;
+namespace AbdelhamidErrahmouni\FilamentProfile;
 
 use Filament\PluginServiceProvider;
 use Livewire\Livewire;
-use RyanChandler\FilamentProfile\Pages\Profile;
+use AbdelhamidErrahmouni\FilamentProfile\Pages\Profile;
 
 class FilamentProfileServiceProvider extends PluginServiceProvider
 {

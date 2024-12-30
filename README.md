@@ -1,9 +1,9 @@
 # A simple profile page for Filament.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ryangjchandler/filament-profile.svg?style=flat-square)](https://packagist.org/packages/ryangjchandler/filament-profile)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ryangjchandler/filament-profile/run-tests?label=tests)](https://github.com/ryangjchandler/filament-profile/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/ryangjchandler/filament-profile/Check%20&%20fix%20styling?label=code%20style)](https://github.com/ryangjchandler/filament-profile/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/ryangjchandler/filament-profile.svg?style=flat-square)](https://packagist.org/packages/ryangjchandler/filament-profile)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/abdelhamiderrahmouni/filament-profile.svg?style=flat-square)](https://packagist.org/packages/abdelhamiderrahmouni/filament-profile)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/abdelhamiderrahmouni/filament-profile/run-tests?label=tests)](https://github.com/abdelhamiderrahmouni/filament-profile/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/abdelhamiderrahmouni/filament-profile/Check%20&%20fix%20styling?label=code%20style)](https://github.com/abdelhamiderrahmouni/filament-profile/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/abdelhamiderrahmouni/filament-profile.svg?style=flat-square)](https://packagist.org/packages/abdelhamiderrahmouni/filament-profile)
 
 This package provides a very simple `Profile` page that allows the current user to manage their name, email address and password inside of Filament.
 
@@ -14,7 +14,7 @@ This package provides a very simple `Profile` page that allows the current user 
 You can install the package via Composer:
 
 ```bash
-composer require ryangjchandler/filament-profile
+composer require abdelhamiderrahmouni/filament-profile
 ```
 
 Optionally, you can publish the views using
@@ -32,7 +32,7 @@ This package will automatically register the `Profile` page as a Livewire compon
         // ...
         'register' => [
             // ...
-            \RyanChandler\FilamentProfile\Pages\Profile::class
+            \AbdelhamidErrahmouni\FilamentProfile\Pages\Profile::class
         ],
     ],
 ```
@@ -51,12 +51,12 @@ php artisan filament:page Profile
 
 This will create a new `App\Filament\Pages\Profile` class in your project.
 
-You can then update this class to extend the `RyanChandler\FilamentProfile\Pages\Profile` class.
+You can then update this class to extend the `AbdelhamidErrahmouni\FilamentProfile\Pages\Profile` class.
 
 ```php
 namespace App\Filament\Pages;
 
-use RyanChandler\FilamentProfile\Pages\Profile as BaseProfile;
+use AbdelhamidErrahmouni\FilamentProfile\Pages\Profile as BaseProfile;
 
 class Profile extends BaseProfile
 {
@@ -85,7 +85,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Ryan Chandler](https://github.com/ryangjchandler)
+- [Abdelhamid Errahmouni](https://github.com/abdelhamiderrahmouni)
 - [All Contributors](../../contributors)
 
 ## License
